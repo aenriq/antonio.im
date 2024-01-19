@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--background-color: ;
+	--font-color: #3a3a3a;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--background-color: #1f1f1f;
+		--font-color: #c7c7c7;
+	}
+}
+
+html {
+	display: block;
+}
+
+body {
+	color: var(--font-color);
+	background: var(--background-color);
+	font-family: "Inter", sans-serif;
+	overflow-y: scroll;
+	padding: 0;
+	margin: 0;
+}
+
+main {
+	padding-top: 128px;
+	padding-bottom: 128px;
+	margin: auto;
+	max-width: 1072px;
+	font-weight: 300;
+	height: auto;
+	overflow-y: scroll;
+}
+
+p {
+	margin: 28px 0px;
+}
+
+@layer utilities {
+	.text-balance {
+		text-wrap: balance;
+	}
+}
