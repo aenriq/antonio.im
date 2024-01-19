@@ -37,6 +37,12 @@ main {
 	overflow-y: scroll;
 }
 
+@media screen and (max-width: 768px) {
+	main {
+		padding: 64px 0px;
+	}
+}
+
 p {
 	margin: 28px 0px;
 }

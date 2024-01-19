@@ -8,7 +8,7 @@ export default function Home() {
 		{ id: "2", text: "Add a dark mode", done: true },
 		{ id: "3", text: "Add a blog", done: false },
 		{ id: "4", text: "Add a projects page", done: false },
-		{ id: "5", text: "Add a Akeem page", done: false },
+		{ id: "5", text: "Add an Akeem page", done: false },
 	];
 
 	const socialList: ListItem[] = [
@@ -36,7 +36,8 @@ export default function Home() {
 					Passionate about frontend and CI/CD.
 				</p>
 				<p>
-					Working on <A href="pombo.email">pombo.email</A> (under construction)
+					Working on <A href="https://www.pombo.email">pombo.email</A> (under
+					construction)
 				</p>
 				<p>I live with a cat named Akeem.</p>
 				<div className="flex flex-row gap-8">

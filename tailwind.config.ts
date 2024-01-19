@@ -9,7 +9,10 @@ const config: Config = {
 	theme: {
 		extend: {
 			gridTemplateColumns: {
-				"main-grid": "192px 640px 192px",
+				"main-grid": "auto 640px auto",
+			},
+			screens: {
+				sm: "640px",
 			},
 		},
 	},

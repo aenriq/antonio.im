@@ -15,12 +15,17 @@ export default function RootLayout({
 	children: React.ReactNode;
 }>) {
 	return (
-		<html lang="en">
-			<body>
-				<main>
-					<div className="grid grid-cols-main-grid gap-x-6">{children}</div>
-				</main>
-			</body>
-		</html>
+		<>
+			<head></head>
+			<html lang="en">
+				<body>
+					<main>
+						<div className="px-6 flex sm:grid grid-cols-main sm:grid-cols-main-grid sm:gap-x-6">
+							{children}
+						</div>
+					</main>
+				</body>
+			</html>
+		</>
 	);
 }
